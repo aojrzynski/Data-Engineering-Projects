@@ -1,6 +1,5 @@
 # Some additional ones
 .ipynb_checkpoints/
-.env
 *.db
 *.png
 .vs
