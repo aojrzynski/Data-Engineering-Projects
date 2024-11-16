@@ -1,8 +1,15 @@
+import os
 import sqlite3
 import pandas as pd
 
 def save_to_sqlite(df, db_path='daily_stock_tracker/data/stock_data.db', table_name='daily_stock_prices'):
     """Save the cleaned DataFrame to an SQLite database."""
+    # Ensure the directory for the database exists
+    db_directory = os.path.dirname(db_path)
+    if not os.path.exists(db_directory):
+        os.makedirs(db_directory)
+        print(f"Directory '{db_directory}' created.")
+
     # Connect to SQLite database (creates db if not exists)
     conn = sqlite3.connect(db_path)
     try:
