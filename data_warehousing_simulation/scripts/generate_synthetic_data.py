@@ -57,6 +57,6 @@ sales_df = generate_sales(500)
 print(sales_df.head())  # View the first few rows
 
 # Export generated data to CSV files
-customers_df.to_csv('customers.csv', index=False)
-products_df.to_csv('products.csv', index=False)
-sales_df.to_csv('sales.csv', index=False)
+customers_df.to_csv('data/customers.csv', index=False)
+products_df.to_csv('data/products.csv', index=False)
+sales_df.to_csv('data/sales.csv', index=False)
