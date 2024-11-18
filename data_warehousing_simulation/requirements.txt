@@ -1,0 +1,5 @@
+pandas==1.5.0            # For data manipulation and analysis
+sqlalchemy==1.4.41       # For database connection and SQL execution
+psycopg2-binary==2.9.3   # PostgreSQL adapter for Python
+streamlit==1.23.0        # For building the interactive dashboard
+numpy==1.23.3            # Optional, useful for data operations
