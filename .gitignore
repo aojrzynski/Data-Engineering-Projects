@@ -3,6 +3,7 @@
 *.db
 *.png
 .vs
+venv/
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
