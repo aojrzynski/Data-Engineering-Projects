@@ -1,0 +1,4 @@
+pyspark==3.5.0  # Ensure this matches your PySpark version
+pandas==2.1.0   # Data manipulation
+matplotlib==3.8.1  # Visualization
+seaborn==0.12.2   # Visualization
