@@ -12,7 +12,7 @@ spark = SparkSession.builder.appName("DataIngestion").getOrCreate()
 # Read the raw transactional dataset in CSV format
 # - header=True: uses the first row as column names
 # - inferSchema=True: automatically detects data types
-dataset_path = "data/synthetic_fraud_data.csv"  # Replace with your dataset file name
+dataset_path = "data/sample_fraud_data.csv"  # Replace with your dataset file name
 df = spark.read.csv(dataset_path, header=True, inferSchema=True)
 
 # -----------------------------------------
