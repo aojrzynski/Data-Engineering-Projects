@@ -58,6 +58,7 @@ docker run -it -v /path/to/your/project:/app bitnami/spark /bin/bash
 ---
 
 ## 📈 Running the Project
+**IMPORTANT: You may need to edit the paths to the datasets located in "ingest_data.py" and "test_dataset.py"**
 
 ### Step 1: Data Ingestion
 ```bash
