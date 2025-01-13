@@ -12,6 +12,10 @@ Welcome to the Data Engineering Projects repository. This repository contains va
 - **Technologies Used:** Python, pandas, SQLAlchemy, psycopg2, Faker, PostgreSQL, Streamlit, pgAdmin (optional)
 - **Practices Used:** Data modeling and schema design, data extraction and generation, data loading and management, database integration, ETL pipeline development, data visualization, user interaction through a web dashboard, data validation, error handling, project structure organization.
 
+### Spark Batch Processing Project
+- **Description:** A data pipeline using Apache Spark to process and analyze transactional data for detecting spending trends and potential fraud. The workflow covers data ingestion, cleaning, transformation, analysis, and visualization.
+- **Technologies Used:** Apache Spark, PySpark, Python, pandas, Matplotlib, Seaborn, Docker, Parquet
+- **Practices Used:** Batch data processing, data cleaning and transformation, aggregation and analysis, data visualization, scalable data pipelines, Docker-based deployment, efficient data storage with Parquet.
 
 ## Usage
 Each project folder contains specific instructions on how to run each project. Refer to the README file within each project folder for detailed usage guidelines.
