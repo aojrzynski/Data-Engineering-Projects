@@ -1,0 +1,10 @@
+﻿This folder contains metadata files and logs that track data quality and dataset information.
+
+Characteristics:
+- Tracks dataset versions, schema details, and record counts.
+- Stores validation logs for data quality checks.
+- Provides transparency and traceability across the data pipeline.
+
+Examples:
+- `dataset_catalog.json` → Metadata catalog tracking datasets, schemas, and update timestamps.
+- `validation_log.txt` → Logs of data validation checks and errors.

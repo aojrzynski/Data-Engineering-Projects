@@ -14,7 +14,7 @@
             "quantity": "int64",
             "transaction_date": "object"
         },
-        "last_updated": "2025-01-15T09:05:17.257298"
+        "last_updated": "2025-01-15T11:49:10.896132"
     },
     {
         "dataset_name": "sales_data_cleaned.parquet",
@@ -31,7 +31,7 @@
             "quantity": "int64",
             "transaction_date": "datetime64[ns]"
         },
-        "last_updated": "2025-01-15T09:05:17.285300"
+        "last_updated": "2025-01-15T11:49:10.916132"
     },
     {
         "dataset_name": "category_sales.parquet",
@@ -43,7 +43,7 @@
             "category": "object",
             "total_sales": "float64"
         },
-        "last_updated": "2025-01-15T09:05:17.296300"
+        "last_updated": "2025-01-15T11:49:10.927133"
     },
     {
         "dataset_name": "monthly_sales_trend.parquet",
@@ -55,7 +55,7 @@
             "transaction_month": "object",
             "total_sales": "float64"
         },
-        "last_updated": "2025-01-15T09:05:17.305301"
+        "last_updated": "2025-01-15T11:49:10.937133"
     },
     {
         "dataset_name": "top_selling_products.parquet",
@@ -67,6 +67,6 @@
             "product": "object",
             "total_sales": "float64"
         },
-        "last_updated": "2025-01-15T09:05:17.314301"
+        "last_updated": "2025-01-15T11:49:10.946133"
     }
 ]

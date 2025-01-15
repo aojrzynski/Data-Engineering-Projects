@@ -1,0 +1,9 @@
+This folder contains cleaned and standardized data ready for further processing.
+
+Characteristics:
+- Null values, duplicates, and data type inconsistencies are resolved.
+- Data is still detailed and granular.
+- Not yet aggregated or optimized for analysis.
+
+Example: 
+- `sales_data_cleaned.parquet` (cleaned sales transactions data)

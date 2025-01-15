@@ -1,0 +1,11 @@
+# Core Libraries
+pandas==1.5.3          # Data manipulation and transformation
+faker==15.3.4          # Synthetic data generation
+pyarrow==11.0.0        # Parquet file handling
+
+# Data Querying
+duckdb==0.9.2          # SQL engine for querying Parquet files
+
+# Visualization (Optional but recommended for data exploration)
+matplotlib==3.7.1      # Data visualization
+jupyterlab==3.6.3      # Interactive notebooks for data exploration

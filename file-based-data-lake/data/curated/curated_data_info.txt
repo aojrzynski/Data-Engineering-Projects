@@ -1,0 +1,11 @@
+This folder holds aggregated and analysis-ready datasets.
+
+Characteristics:
+- Summarized and optimized for reporting and analytics.
+- Structured for easy querying (e.g., Parquet format).
+- Ready for use by analysts and business users.
+
+Examples:
+- `category_sales.parquet` (total sales by category)
+- `monthly_sales_trend.parquet` (monthly sales trends)
+- `top_selling_products.parquet` (top 5 products by sales)
