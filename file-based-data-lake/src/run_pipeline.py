@@ -1,8 +1,8 @@
 ﻿import subprocess
 import os
 
+# Runs a Python script located in the src directory
 def run_script(script_name):
-    """Run a Python script in the src directory."""
     script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), script_name)
     try:
         print(f"\nRunning {script_name}...")
@@ -11,6 +11,7 @@ def run_script(script_name):
     except subprocess.CalledProcessError as e:
         print(f"Error while running {script_name}: {e}")
 
+# Main function to orchestrate the entire data pipeline
 def main():
     print("\n🚀 Starting the Data Pipeline...")
 
@@ -31,6 +32,6 @@ def main():
 
     print("\n✅ Data Pipeline completed successfully!")
 
-
+# Execute the pipeline when the script is run directly
 if __name__ == "__main__":
     main()

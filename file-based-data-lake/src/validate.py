@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
+# Loads the processed data from the processed data folder
 def load_processed_data(filename="sales_data_cleaned.parquet"):
-    """Load the processed data."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     processed_dir = os.path.join(script_dir, "..", "data", "processed")
     file_path = os.path.join(processed_dir, filename)
@@ -14,8 +14,8 @@ def load_processed_data(filename="sales_data_cleaned.parquet"):
     print(f"Loaded processed data from {file_path}")
     return df
 
+# Validates the data by checking for nulls, duplicates, schema mismatches, and invalid values
 def validate_data(df):
-    """Perform data validation checks."""
     validation_errors = []
 
     # Null value check
@@ -54,8 +54,8 @@ def validate_data(df):
 
     return validation_errors
 
+# Logs any validation errors to a text file in the metadata folder
 def log_validation_errors(errors, log_file="validation_log.txt"):
-    """Log validation errors to a file."""
     # Get the absolute path of the metadata folder
     script_dir = os.path.dirname(os.path.abspath(__file__))
     metadata_dir = os.path.join(script_dir, "..", "metadata")
@@ -78,12 +78,8 @@ def log_validation_errors(errors, log_file="validation_log.txt"):
             print("No validation errors found.")
 
 
+# Main execution block: loads, validates, and logs data quality checks
 if __name__ == "__main__":
-    # Load data
     df = load_processed_data()
-
-    # Validate data
     errors = validate_data(df)
-
-    # Log errors
     log_validation_errors(errors)
