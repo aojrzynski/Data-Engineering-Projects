@@ -1,6 +1,4 @@
 # File-Based Data Lake Simulation
-
-## Overview
 This project simulates a **data lake architecture** using a local file system. It demonstrates the end-to-end data engineering process, including data ingestion, transformation, validation, aggregation, and querying. The project is designed to showcase key data engineering concepts without relying on cloud services.
 
 ## Tools and Technologies
