@@ -12,6 +12,11 @@ Welcome to the Data Engineering Projects repository. This repository contains va
 - **Technologies Used:** Python, pandas, SQLAlchemy, psycopg2, Faker, PostgreSQL, Streamlit, pgAdmin (optional)
 - **Practices Used:** Data modeling and schema design, data extraction and generation, data loading and management, database integration, ETL pipeline development, data visualization, user interaction through a web dashboard, data validation, error handling, project structure organization.
 
+### File-Based Data Lake Simulation
+- **Description:** This project simulates a data lake architecture using a local file system. It demonstrates key data engineering concepts, including ETL pipelines, data validation, metadata management, and querying with SQL. The project automates data ingestion, processing, aggregation, and analysis workflows using Python.  
+- **Technologies Used:** Python, pandas, Faker, PyArrow, DuckDB, Jupyter Notebook, Matplotlib  
+- **Practices Used:** ETL pipeline development, data cleaning and transformation, data quality validation, metadata management, batch processing, SQL querying on Parquet files, project automation and orchestration.
+
 ### Spark Batch Processing Project
 - **Description:** A data pipeline using Apache Spark to process and analyze transactional data for detecting spending trends and potential fraud. The workflow covers data ingestion, cleaning, transformation, analysis, and visualization.
 - **Technologies Used:** Apache Spark, PySpark, Python, pandas, Matplotlib, Seaborn, Docker, Parquet
